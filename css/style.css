@@ -1,0 +1,74 @@
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.bgr{
+	background: rgba(192, 192, 192,0.8);
+}
+.key-logo{
+	max-width: 65px;
+	height: auto;
+}
+.strong-text{
+  font-weight: bold;
+}
+.position-fixed{
+	z-index: 5;
+	right: 0;
+	left: 0;
+}
+.header a{
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+}
+.nav{
+	margin-left: auto;
+}
+.nav a{
+	font-size: 16px;
+	margin-left: 20px;
+}
+.carousel-caption{
+	right: 10%;
+	left: 50%;
+	top:35%;
+}
+.in-carousel{
+  text-decoration: none;
+  font-size: 25px;
+}
+.services{
+  border-bottom: 5px solid #808080;
+  border-top: 5px solid #808080;
+}
+.border{
+  border-radius: 15px;
+}
+.fas{
+	font-size: 50px;
+}
+.advices{
+  background: #F5F5F5;
+}
+.phone{
+  text-decoration: none;
+  color: #333366;
+}
+.footer{
+	background: rgb(45, 49, 54);
+}
+.carousel-caption a{
+	text-decoration: none;
+}
+@media (max-width: 750px){
+  .under_navbar h2{
+  font-size: 25px;
+}
+  .under_navbar p{
+  font-size: 20px;
+}
+.above-footer span{
+  font-size: 30px;
+}
+}
+
